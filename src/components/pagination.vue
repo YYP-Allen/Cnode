@@ -80,7 +80,8 @@ button {
 }
 .currentPage {
   color:#fff;
-  background-color: #333;
+  background-color: #2275da;
+  border-radius: 2px;
 }
 
 </style>

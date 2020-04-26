@@ -7,9 +7,6 @@
       <router-link :to="{name: 'root'}">
         <li><a href="">首页</a></li>
       </router-link>
-      <li><a href="">新手入门</a></li>
-      <li><a href="">API</a></li>
-      <li><a href="">关于</a></li>
        <router-link :to="{name: 'registerWindow'}">
         <li><a href="">注册</a></li>
       </router-link>
@@ -53,10 +50,13 @@ export default {
   ul {
     list-style: none;
     float: right;
-    margin: 4px;
+    margin: 4px 10% 4px 4px;
   }
   ul li {
     display: inline-block;
     padding: 10px 15px;
+  }
+  ul li:last-child {
+    padding: 10px 0 10px 15px;
   }
 </style>
