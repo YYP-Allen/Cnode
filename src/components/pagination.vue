@@ -14,6 +14,7 @@
 </template>
 
 <script>
+import $ from 'jquery'
 export default {
   name: 'pagination',
   data() {
