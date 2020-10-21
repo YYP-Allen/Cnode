@@ -68,7 +68,7 @@ export default {
   },
   methods: {
     getData() {
-      this.$http.get('https://cnodejs.org/api/v1/topics',{
+      this.$http.get('https://52.197.183.123/api/v1/topics',{
         params: {
           page: this.postPage,
           limit: 18

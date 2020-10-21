@@ -62,7 +62,7 @@ export default {
   // 获取列表的详情文章
   methods:{
     getArticleData() {
-      this.$http.get(`https://cnodejs.org/api/v1/topic/${this.$route.params.id}`)
+      this.$http.get(`https://52.197.183.123/api/v1/topic/${this.$route.params.id}`)
                 .then(res => {
                   if(res.data.success === true) {
                     this.isLoading = false

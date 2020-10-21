@@ -1,14 +1,14 @@
 ### 简版cnode轻社区
 `效果`
-![cnode](./src/assets/postList.png){:height="300px" width="600px"}
-![cnode](./src/assets/article.png){:height="300px" width="600px"}
-![cnode](./src/assets/userInfo.png){:height="300px" width="600px"}
+![cnode](./src/assets/postList.png)
+![cnode](./src/assets/article.png)
+![cnode](./src/assets/userInfo.png)
 ****
 ### 技术栈
 **JavaScript**、**ES6**、**Jquery**、**Vue**、**axios**、**Vue-router**、**vue-cli脚手架工具**、**CSS3**、**CSS3动画**、**HTML5**、**flex布局**
 ****
 ### 项目描述
-运用`Vue`框架，构建一个(cnode社区)[https://cnodejs.org/]，针对单页应用，编写对应的组件：
+运用`Vue`框架，构建一个(cnode社区)[https://52.197.183.123]，针对单页应用，编写对应的组件：
 `postList`列出网站帖子组件、`Header`头部组件、`pagination`分页组件、`slideBar`侧边栏组件、`Article`单个帖子详情组件
 
 功能： 

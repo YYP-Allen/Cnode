@@ -59,7 +59,7 @@ export default {
   },
   methods: {
      getUserData() {
-      this.$http.get(`https://cnodejs.org/api/v1/user/${this.$route.params.name}`)
+      this.$http.get(`https://52.197.183.123/api/v1/user/${this.$route.params.name}`)
                 .then(res => {
                   if(res.data.success === true) {
                     this.isLoading = false

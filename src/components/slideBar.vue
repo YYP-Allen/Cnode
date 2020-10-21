@@ -62,7 +62,7 @@ export default {
     getData() {
       // 点击列表项内容的Article组件 title时，通过定义的路由已经获取了name的值
       // 已经获取所以 .then() 不需要 if(res.data.success === true)判断
-      this.$http.get(`https://cnodejs.org/api/v1/user/${this.$route.params.name}`)
+      this.$http.get(`https://52.197.183.123/api/v1/user/${this.$route.params.name}`)
                 .then(res => {
                     this.isLoading = false
                     this.user_info = res.data.data
